@@ -1,0 +1,448 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "Sf"
+- "Sd"
+provides-member:
+- ["Sf", ""]
+- ["Sd", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "CFConvertFloat32HostToSwapped"
+- !private "CFConvertFloat32SwappedToHost"
+- "Data"
+- "Double"
+- "Float"
+- !private "Float32"
+- "OSCType"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "UnsafeBufferPointer"
+- !private "UnsafeMutableBufferPointer"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "copyBytes"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "CFConvertFloat32HostToSwapped"]
+- !private ["s19BinaryFloatingPointP", "CFConvertFloat32SwappedToHost"]
+- !private ["s19BinaryFloatingPointP", "Data"]
+- !private ["s19BinaryFloatingPointP", "Float"]
+- !private ["s19BinaryFloatingPointP", "Float32"]
+- !private ["s19BinaryFloatingPointP", "UnsafeBufferPointer"]
+- !private ["s19BinaryFloatingPointP", "UnsafeMutableBufferPointer"]
+- ["s19BinaryFloatingPointP", "data"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- ["s19BinaryFloatingPointP", "tag"]
+- !private ["s7CVarArgP", "CFConvertFloat32HostToSwapped"]
+- !private ["s7CVarArgP", "CFConvertFloat32SwappedToHost"]
+- !private ["s7CVarArgP", "Data"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "Float32"]
+- !private ["s7CVarArgP", "UnsafeBufferPointer"]
+- !private ["s7CVarArgP", "UnsafeMutableBufferPointer"]
+- ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "tag"]
+- !private ["s10CollectionP", "copyBytes"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "CFConvertFloat32HostToSwapped"]
+- !private ["s10ComparableP", "CFConvertFloat32SwappedToHost"]
+- !private ["s10ComparableP", "Data"]
+- !private ["s10ComparableP", "Float"]
+- !private ["s10ComparableP", "Float32"]
+- !private ["s10ComparableP", "UnsafeBufferPointer"]
+- !private ["s10ComparableP", "UnsafeMutableBufferPointer"]
+- ["s10ComparableP", "data"]
+- !private ["s10ComparableP", "init"]
+- ["s10ComparableP", "tag"]
+- !private ["s28CustomDebugStringConvertibleP", "CFConvertFloat32HostToSwapped"]
+- !private ["s28CustomDebugStringConvertibleP", "CFConvertFloat32SwappedToHost"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "Float32"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeBufferPointer"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeMutableBufferPointer"]
+- !private ["s28CustomDebugStringConvertibleP", "copyBytes"]
+- ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "tag"]
+- !private ["s29CustomPlaygroundQuickLookableP", "CFConvertFloat32HostToSwapped"]
+- !private ["s29CustomPlaygroundQuickLookableP", "CFConvertFloat32SwappedToHost"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Data"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Float"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Float32"]
+- !private ["s29CustomPlaygroundQuickLookableP", "UnsafeBufferPointer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "UnsafeMutableBufferPointer"]
+- ["s29CustomPlaygroundQuickLookableP", "data"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "tag"]
+- !private ["s17CustomReflectableP", "CFConvertFloat32HostToSwapped"]
+- !private ["s17CustomReflectableP", "CFConvertFloat32SwappedToHost"]
+- !private ["s17CustomReflectableP", "Data"]
+- !private ["s17CustomReflectableP", "Float"]
+- !private ["s17CustomReflectableP", "Float32"]
+- !private ["s17CustomReflectableP", "UnsafeBufferPointer"]
+- !private ["s17CustomReflectableP", "UnsafeMutableBufferPointer"]
+- !private ["s17CustomReflectableP", "copyBytes"]
+- ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "tag"]
+- !private ["s23CustomStringConvertibleP", "CFConvertFloat32HostToSwapped"]
+- !private ["s23CustomStringConvertibleP", "CFConvertFloat32SwappedToHost"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "Float32"]
+- !private ["s23CustomStringConvertibleP", "UnsafeBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "UnsafeMutableBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "copyBytes"]
+- ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "tag"]
+- !private ["10Foundation4DataV", "copyBytes"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["s9DecodableP", "CFConvertFloat32HostToSwapped"]
+- !private ["s9DecodableP", "CFConvertFloat32SwappedToHost"]
+- !private ["s9DecodableP", "Data"]
+- !private ["s9DecodableP", "Float"]
+- !private ["s9DecodableP", "Float32"]
+- !private ["s9DecodableP", "UnsafeBufferPointer"]
+- !private ["s9DecodableP", "UnsafeMutableBufferPointer"]
+- !private ["s9DecodableP", "copyBytes"]
+- ["s9DecodableP", "data"]
+- !private ["s9DecodableP", "init"]
+- ["s9DecodableP", "tag"]
+- !private ["Sd", "CFConvertFloat32HostToSwapped"]
+- ["Sd", "Data"]
+- !private ["Sd", "Float32"]
+- ["Sd", "String"]
+- !private ["Sd", "UnsafeBufferPointer"]
+- ["Sd", "data"]
+- ["Sd", "deinit"]
+- ["Sd", "tag"]
+- !private ["s9EncodableP", "CFConvertFloat32HostToSwapped"]
+- !private ["s9EncodableP", "CFConvertFloat32SwappedToHost"]
+- !private ["s9EncodableP", "Data"]
+- !private ["s9EncodableP", "Float"]
+- !private ["s9EncodableP", "Float32"]
+- !private ["s9EncodableP", "UnsafeBufferPointer"]
+- !private ["s9EncodableP", "UnsafeMutableBufferPointer"]
+- !private ["s9EncodableP", "copyBytes"]
+- ["s9EncodableP", "data"]
+- !private ["s9EncodableP", "init"]
+- ["s9EncodableP", "tag"]
+- !private ["s9EquatableP", "CFConvertFloat32HostToSwapped"]
+- !private ["s9EquatableP", "CFConvertFloat32SwappedToHost"]
+- !private ["s9EquatableP", "Data"]
+- !private ["s9EquatableP", "Float"]
+- !private ["s9EquatableP", "Float32"]
+- !private ["s9EquatableP", "UnsafeBufferPointer"]
+- !private ["s9EquatableP", "UnsafeMutableBufferPointer"]
+- !private ["s9EquatableP", "copyBytes"]
+- ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "tag"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "CFConvertFloat32HostToSwapped"]
+- !private ["s25ExpressibleByFloatLiteralP", "CFConvertFloat32SwappedToHost"]
+- !private ["s25ExpressibleByFloatLiteralP", "Data"]
+- !private ["s25ExpressibleByFloatLiteralP", "Float"]
+- !private ["s25ExpressibleByFloatLiteralP", "Float32"]
+- !private ["s25ExpressibleByFloatLiteralP", "UnsafeBufferPointer"]
+- !private ["s25ExpressibleByFloatLiteralP", "UnsafeMutableBufferPointer"]
+- ["s25ExpressibleByFloatLiteralP", "data"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s25ExpressibleByFloatLiteralP", "tag"]
+- !private ["s27ExpressibleByIntegerLiteralP", "CFConvertFloat32HostToSwapped"]
+- !private ["s27ExpressibleByIntegerLiteralP", "CFConvertFloat32SwappedToHost"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Data"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Float"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Float32"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UnsafeBufferPointer"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UnsafeMutableBufferPointer"]
+- ["s27ExpressibleByIntegerLiteralP", "data"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "tag"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["Sf", "CFConvertFloat32HostToSwapped"]
+- !private ["Sf", "CFConvertFloat32SwappedToHost"]
+- ["Sf", "Data"]
+- !private ["Sf", "Float"]
+- !private ["Sf", "Float32"]
+- ["Sf", "String"]
+- !private ["Sf", "UnsafeBufferPointer"]
+- !private ["Sf", "UnsafeMutableBufferPointer"]
+- ["Sf", "data"]
+- ["Sf", "deinit"]
+- ["Sf", "init"]
+- ["Sf", "tag"]
+- !private ["s13FloatingPointP", "CFConvertFloat32HostToSwapped"]
+- !private ["s13FloatingPointP", "CFConvertFloat32SwappedToHost"]
+- !private ["s13FloatingPointP", "Data"]
+- !private ["s13FloatingPointP", "Float"]
+- !private ["s13FloatingPointP", "Float32"]
+- !private ["s13FloatingPointP", "UnsafeBufferPointer"]
+- !private ["s13FloatingPointP", "UnsafeMutableBufferPointer"]
+- ["s13FloatingPointP", "data"]
+- !private ["s13FloatingPointP", "init"]
+- ["s13FloatingPointP", "tag"]
+- !private ["s8HashableP", "CFConvertFloat32HostToSwapped"]
+- !private ["s8HashableP", "CFConvertFloat32SwappedToHost"]
+- !private ["s8HashableP", "Data"]
+- !private ["s8HashableP", "Float"]
+- !private ["s8HashableP", "Float32"]
+- !private ["s8HashableP", "UnsafeBufferPointer"]
+- !private ["s8HashableP", "UnsafeMutableBufferPointer"]
+- !private ["s8HashableP", "copyBytes"]
+- ["s8HashableP", "data"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "tag"]
+- !private ["s25LosslessStringConvertibleP", "CFConvertFloat32HostToSwapped"]
+- !private ["s25LosslessStringConvertibleP", "CFConvertFloat32SwappedToHost"]
+- !private ["s25LosslessStringConvertibleP", "Data"]
+- !private ["s25LosslessStringConvertibleP", "Float"]
+- !private ["s25LosslessStringConvertibleP", "Float32"]
+- !private ["s25LosslessStringConvertibleP", "UnsafeBufferPointer"]
+- !private ["s25LosslessStringConvertibleP", "UnsafeMutableBufferPointer"]
+- ["s25LosslessStringConvertibleP", "data"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "tag"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "copyBytes"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s7NumericP", "CFConvertFloat32HostToSwapped"]
+- !private ["s7NumericP", "CFConvertFloat32SwappedToHost"]
+- !private ["s7NumericP", "Data"]
+- !private ["s7NumericP", "Float"]
+- !private ["s7NumericP", "Float32"]
+- !private ["s7NumericP", "UnsafeBufferPointer"]
+- !private ["s7NumericP", "UnsafeMutableBufferPointer"]
+- ["s7NumericP", "data"]
+- !private ["s7NumericP", "init"]
+- ["s7NumericP", "tag"]
+- !private ["9AnimaChat7OSCTypeP", "CFConvertFloat32HostToSwapped"]
+- !private ["9AnimaChat7OSCTypeP", "CFConvertFloat32SwappedToHost"]
+- !private ["9AnimaChat7OSCTypeP", "Data"]
+- !private ["9AnimaChat7OSCTypeP", "Float"]
+- !private ["9AnimaChat7OSCTypeP", "Float32"]
+- !private ["9AnimaChat7OSCTypeP", "UnsafeBufferPointer"]
+- !private ["9AnimaChat7OSCTypeP", "UnsafeMutableBufferPointer"]
+- !private ["9AnimaChat7OSCTypeP", "copyBytes"]
+- ["9AnimaChat7OSCTypeP", "data"]
+- !private ["9AnimaChat7OSCTypeP", "init"]
+- ["9AnimaChat7OSCTypeP", "tag"]
+- ["9AnimaChat7OSCTypeP", ""]
+- !private ["s22RandomAccessCollectionP", "copyBytes"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "copyBytes"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "copyBytes"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "copyBytes"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedNumericP", "CFConvertFloat32HostToSwapped"]
+- !private ["s13SignedNumericP", "CFConvertFloat32SwappedToHost"]
+- !private ["s13SignedNumericP", "Data"]
+- !private ["s13SignedNumericP", "Float"]
+- !private ["s13SignedNumericP", "Float32"]
+- !private ["s13SignedNumericP", "UnsafeBufferPointer"]
+- !private ["s13SignedNumericP", "UnsafeMutableBufferPointer"]
+- ["s13SignedNumericP", "data"]
+- !private ["s13SignedNumericP", "init"]
+- ["s13SignedNumericP", "tag"]
+- !private ["s10StrideableP", "CFConvertFloat32HostToSwapped"]
+- !private ["s10StrideableP", "CFConvertFloat32SwappedToHost"]
+- !private ["s10StrideableP", "Data"]
+- !private ["s10StrideableP", "Float"]
+- !private ["s10StrideableP", "Float32"]
+- !private ["s10StrideableP", "UnsafeBufferPointer"]
+- !private ["s10StrideableP", "UnsafeMutableBufferPointer"]
+- ["s10StrideableP", "data"]
+- !private ["s10StrideableP", "init"]
+- ["s10StrideableP", "tag"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["SR", "init"]
+- !private ["Sr", "init"]
+- !private ["s23_BidirectionalIndexableP", "copyBytes"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s15_CVarArgAlignedP", "CFConvertFloat32HostToSwapped"]
+- !private ["s15_CVarArgAlignedP", "CFConvertFloat32SwappedToHost"]
+- !private ["s15_CVarArgAlignedP", "Data"]
+- !private ["s15_CVarArgAlignedP", "Float"]
+- !private ["s15_CVarArgAlignedP", "Float32"]
+- !private ["s15_CVarArgAlignedP", "UnsafeBufferPointer"]
+- !private ["s15_CVarArgAlignedP", "UnsafeMutableBufferPointer"]
+- ["s15_CVarArgAlignedP", "data"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- ["s15_CVarArgAlignedP", "tag"]
+- !private ["s22_CVarArgPassedAsDoubleP", "CFConvertFloat32HostToSwapped"]
+- !private ["s22_CVarArgPassedAsDoubleP", "CFConvertFloat32SwappedToHost"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Data"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Float"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Float32"]
+- !private ["s22_CVarArgPassedAsDoubleP", "UnsafeBufferPointer"]
+- !private ["s22_CVarArgPassedAsDoubleP", "UnsafeMutableBufferPointer"]
+- ["s22_CVarArgPassedAsDoubleP", "data"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "tag"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "CFConvertFloat32HostToSwapped"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "CFConvertFloat32SwappedToHost"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Data"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Float"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Float32"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "UnsafeBufferPointer"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "UnsafeMutableBufferPointer"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "data"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "tag"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "CFConvertFloat32HostToSwapped"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "CFConvertFloat32SwappedToHost"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Data"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Float"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Float32"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "UnsafeBufferPointer"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "UnsafeMutableBufferPointer"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "data"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "tag"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "copyBytes"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "copyBytes"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s17_MutableIndexableP", "copyBytes"]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "CFConvertFloat32HostToSwapped"]
+- !private ["s21_ObjectiveCBridgeableP", "CFConvertFloat32SwappedToHost"]
+- !private ["s21_ObjectiveCBridgeableP", "Data"]
+- !private ["s21_ObjectiveCBridgeableP", "Float"]
+- !private ["s21_ObjectiveCBridgeableP", "Float32"]
+- !private ["s21_ObjectiveCBridgeableP", "UnsafeBufferPointer"]
+- !private ["s21_ObjectiveCBridgeableP", "UnsafeMutableBufferPointer"]
+- !private ["s21_ObjectiveCBridgeableP", "copyBytes"]
+- ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "tag"]
+- !private ["s22_RandomAccessIndexableP", "copyBytes"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "copyBytes"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "CFConvertFloat32HostToSwapped"]
+- !private ["s11_StrideableP", "CFConvertFloat32SwappedToHost"]
+- !private ["s11_StrideableP", "Data"]
+- !private ["s11_StrideableP", "Float"]
+- !private ["s11_StrideableP", "Float32"]
+- !private ["s11_StrideableP", "UnsafeBufferPointer"]
+- !private ["s11_StrideableP", "UnsafeMutableBufferPointer"]
+- ["s11_StrideableP", "data"]
+- !private ["s11_StrideableP", "init"]
+- ["s11_StrideableP", "tag"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "s19BinaryFloatingPointP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- "s9DecodableP"
+- "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "Sf"
+- "s13FloatingPointP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "s7NumericP"
+- "9AnimaChat7OSCTypeP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- "s13SignedNumericP"
+- "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "SR"
+- !private "Sr"
+- !private "s23_BidirectionalIndexableP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GameplayKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "3f6876e189bbbcb362a0c41d4073cd88"

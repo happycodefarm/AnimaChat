@@ -1,0 +1,412 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Timetag"
+provides-nominal:
+- "s6UInt64V"
+provides-member:
+- ["s6UInt64V", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "+="
+- "AssignmentPrecedence"
+- "Data"
+- "Double"
+- "OSCType"
+- "String"
+- !private "StringLiteralType"
+- !private "Timer"
+- "Timetag"
+- "UInt64"
+- !private "UnicodeScalarType"
+- !private "UnsafeBufferPointer"
+- !private "UnsafeMutableBufferPointer"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "copyBytes"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "Data"]
+- !private ["s13BinaryIntegerP", "Timer"]
+- !private ["s13BinaryIntegerP", "UInt64"]
+- !private ["s13BinaryIntegerP", "UnsafeBufferPointer"]
+- !private ["s13BinaryIntegerP", "UnsafeMutableBufferPointer"]
+- !private ["s13BinaryIntegerP", "bigEndian"]
+- !private ["s13BinaryIntegerP", "byteSwapped"]
+- ["s13BinaryIntegerP", "data"]
+- !private ["s13BinaryIntegerP", "init"]
+- ["s13BinaryIntegerP", "tag"]
+- !private ["s7CVarArgP", "Data"]
+- !private ["s7CVarArgP", "Timer"]
+- !private ["s7CVarArgP", "UInt64"]
+- !private ["s7CVarArgP", "UnsafeBufferPointer"]
+- !private ["s7CVarArgP", "UnsafeMutableBufferPointer"]
+- !private ["s7CVarArgP", "bigEndian"]
+- !private ["s7CVarArgP", "byteSwapped"]
+- ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "tag"]
+- !private ["s10CollectionP", "copyBytes"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "Data"]
+- !private ["s10ComparableP", "Timer"]
+- !private ["s10ComparableP", "UInt64"]
+- !private ["s10ComparableP", "UnsafeBufferPointer"]
+- !private ["s10ComparableP", "UnsafeMutableBufferPointer"]
+- !private ["s10ComparableP", "bigEndian"]
+- !private ["s10ComparableP", "byteSwapped"]
+- ["s10ComparableP", "data"]
+- !private ["s10ComparableP", "init"]
+- ["s10ComparableP", "tag"]
+- !private ["s28CustomDebugStringConvertibleP", "copyBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Data"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Timer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "UInt64"]
+- !private ["s29CustomPlaygroundQuickLookableP", "UnsafeBufferPointer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "UnsafeMutableBufferPointer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "bigEndian"]
+- !private ["s29CustomPlaygroundQuickLookableP", "byteSwapped"]
+- ["s29CustomPlaygroundQuickLookableP", "data"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "tag"]
+- !private ["s17CustomReflectableP", "Data"]
+- !private ["s17CustomReflectableP", "Timer"]
+- !private ["s17CustomReflectableP", "UInt64"]
+- !private ["s17CustomReflectableP", "UnsafeBufferPointer"]
+- !private ["s17CustomReflectableP", "UnsafeMutableBufferPointer"]
+- !private ["s17CustomReflectableP", "bigEndian"]
+- !private ["s17CustomReflectableP", "byteSwapped"]
+- !private ["s17CustomReflectableP", "copyBytes"]
+- ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "tag"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "Timer"]
+- !private ["s23CustomStringConvertibleP", "UInt64"]
+- !private ["s23CustomStringConvertibleP", "UnsafeBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "UnsafeMutableBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "bigEndian"]
+- !private ["s23CustomStringConvertibleP", "byteSwapped"]
+- !private ["s23CustomStringConvertibleP", "copyBytes"]
+- ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "tag"]
+- !private ["10Foundation4DataV", "copyBytes"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["s9DecodableP", "Data"]
+- !private ["s9DecodableP", "Timer"]
+- !private ["s9DecodableP", "UInt64"]
+- !private ["s9DecodableP", "UnsafeBufferPointer"]
+- !private ["s9DecodableP", "UnsafeMutableBufferPointer"]
+- !private ["s9DecodableP", "bigEndian"]
+- !private ["s9DecodableP", "byteSwapped"]
+- !private ["s9DecodableP", "copyBytes"]
+- ["s9DecodableP", "data"]
+- !private ["s9DecodableP", "init"]
+- ["s9DecodableP", "tag"]
+- !private ["s9EncodableP", "Data"]
+- !private ["s9EncodableP", "Timer"]
+- !private ["s9EncodableP", "UInt64"]
+- !private ["s9EncodableP", "UnsafeBufferPointer"]
+- !private ["s9EncodableP", "UnsafeMutableBufferPointer"]
+- !private ["s9EncodableP", "bigEndian"]
+- !private ["s9EncodableP", "byteSwapped"]
+- !private ["s9EncodableP", "copyBytes"]
+- ["s9EncodableP", "data"]
+- !private ["s9EncodableP", "init"]
+- ["s9EncodableP", "tag"]
+- !private ["s9EquatableP", "Data"]
+- !private ["s9EquatableP", "Timer"]
+- !private ["s9EquatableP", "UInt64"]
+- !private ["s9EquatableP", "UnsafeBufferPointer"]
+- !private ["s9EquatableP", "UnsafeMutableBufferPointer"]
+- !private ["s9EquatableP", "bigEndian"]
+- !private ["s9EquatableP", "byteSwapped"]
+- !private ["s9EquatableP", "copyBytes"]
+- ["s9EquatableP", "data"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "tag"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Data"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Timer"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UInt64"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UnsafeBufferPointer"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UnsafeMutableBufferPointer"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bigEndian"]
+- !private ["s27ExpressibleByIntegerLiteralP", "byteSwapped"]
+- ["s27ExpressibleByIntegerLiteralP", "data"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "tag"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "Data"]
+- !private ["s17FixedWidthIntegerP", "Timer"]
+- !private ["s17FixedWidthIntegerP", "UInt64"]
+- !private ["s17FixedWidthIntegerP", "UnsafeBufferPointer"]
+- !private ["s17FixedWidthIntegerP", "UnsafeMutableBufferPointer"]
+- !private ["s17FixedWidthIntegerP", "bigEndian"]
+- !private ["s17FixedWidthIntegerP", "byteSwapped"]
+- ["s17FixedWidthIntegerP", "data"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["s17FixedWidthIntegerP", "tag"]
+- !private ["s8HashableP", "Data"]
+- !private ["s8HashableP", "Timer"]
+- !private ["s8HashableP", "UInt64"]
+- !private ["s8HashableP", "UnsafeBufferPointer"]
+- !private ["s8HashableP", "UnsafeMutableBufferPointer"]
+- !private ["s8HashableP", "bigEndian"]
+- !private ["s8HashableP", "byteSwapped"]
+- !private ["s8HashableP", "copyBytes"]
+- ["s8HashableP", "data"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "tag"]
+- !private ["s25LosslessStringConvertibleP", "Data"]
+- !private ["s25LosslessStringConvertibleP", "Timer"]
+- !private ["s25LosslessStringConvertibleP", "UInt64"]
+- !private ["s25LosslessStringConvertibleP", "UnsafeBufferPointer"]
+- !private ["s25LosslessStringConvertibleP", "UnsafeMutableBufferPointer"]
+- !private ["s25LosslessStringConvertibleP", "bigEndian"]
+- !private ["s25LosslessStringConvertibleP", "byteSwapped"]
+- ["s25LosslessStringConvertibleP", "data"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "tag"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "copyBytes"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s7NumericP", "Data"]
+- !private ["s7NumericP", "Timer"]
+- !private ["s7NumericP", "UInt64"]
+- !private ["s7NumericP", "UnsafeBufferPointer"]
+- !private ["s7NumericP", "UnsafeMutableBufferPointer"]
+- !private ["s7NumericP", "bigEndian"]
+- !private ["s7NumericP", "byteSwapped"]
+- ["s7NumericP", "data"]
+- !private ["s7NumericP", "init"]
+- ["s7NumericP", "tag"]
+- !private ["9AnimaChat7OSCTypeP", "Data"]
+- !private ["9AnimaChat7OSCTypeP", "Timer"]
+- !private ["9AnimaChat7OSCTypeP", "UInt64"]
+- !private ["9AnimaChat7OSCTypeP", "UnsafeBufferPointer"]
+- !private ["9AnimaChat7OSCTypeP", "UnsafeMutableBufferPointer"]
+- !private ["9AnimaChat7OSCTypeP", "bigEndian"]
+- !private ["9AnimaChat7OSCTypeP", "byteSwapped"]
+- !private ["9AnimaChat7OSCTypeP", "copyBytes"]
+- ["9AnimaChat7OSCTypeP", "data"]
+- !private ["9AnimaChat7OSCTypeP", "init"]
+- ["9AnimaChat7OSCTypeP", "tag"]
+- ["9AnimaChat7OSCTypeP", ""]
+- !private ["s22RandomAccessCollectionP", "copyBytes"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "copyBytes"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "copyBytes"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "copyBytes"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10StrideableP", "Data"]
+- !private ["s10StrideableP", "Timer"]
+- !private ["s10StrideableP", "UInt64"]
+- !private ["s10StrideableP", "UnsafeBufferPointer"]
+- !private ["s10StrideableP", "UnsafeMutableBufferPointer"]
+- !private ["s10StrideableP", "bigEndian"]
+- !private ["s10StrideableP", "byteSwapped"]
+- ["s10StrideableP", "data"]
+- !private ["s10StrideableP", "init"]
+- ["s10StrideableP", "tag"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9AnimaChat5TimerC", "sharedTime"]
+- !private ["9AnimaChat5TimerC", "timetag"]
+- ["s6UInt64V", "Data"]
+- ["s6UInt64V", "Double"]
+- ["s6UInt64V", "String"]
+- !private ["s6UInt64V", "Timer"]
+- !private ["s6UInt64V", "UInt64"]
+- !private ["s6UInt64V", "UnsafeBufferPointer"]
+- !private ["s6UInt64V", "UnsafeMutableBufferPointer"]
+- !private ["s6UInt64V", "bigEndian"]
+- !private ["s6UInt64V", "byteSwapped"]
+- ["s6UInt64V", "data"]
+- ["s6UInt64V", "deinit"]
+- ["s6UInt64V", "init"]
+- ["s6UInt64V", "tag"]
+- !private ["SR", "init"]
+- !private ["Sr", "init"]
+- !private ["s15UnsignedIntegerP", "Data"]
+- !private ["s15UnsignedIntegerP", "Timer"]
+- !private ["s15UnsignedIntegerP", "UInt64"]
+- !private ["s15UnsignedIntegerP", "UnsafeBufferPointer"]
+- !private ["s15UnsignedIntegerP", "UnsafeMutableBufferPointer"]
+- !private ["s15UnsignedIntegerP", "bigEndian"]
+- !private ["s15UnsignedIntegerP", "byteSwapped"]
+- ["s15UnsignedIntegerP", "data"]
+- !private ["s15UnsignedIntegerP", "init"]
+- ["s15UnsignedIntegerP", "tag"]
+- !private ["s23_BidirectionalIndexableP", "copyBytes"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s18_BitwiseOperationsP", "Data"]
+- !private ["s18_BitwiseOperationsP", "Timer"]
+- !private ["s18_BitwiseOperationsP", "UInt64"]
+- !private ["s18_BitwiseOperationsP", "UnsafeBufferPointer"]
+- !private ["s18_BitwiseOperationsP", "UnsafeMutableBufferPointer"]
+- !private ["s18_BitwiseOperationsP", "bigEndian"]
+- !private ["s18_BitwiseOperationsP", "byteSwapped"]
+- ["s18_BitwiseOperationsP", "data"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- ["s18_BitwiseOperationsP", "tag"]
+- !private ["s15_CVarArgAlignedP", "Data"]
+- !private ["s15_CVarArgAlignedP", "Timer"]
+- !private ["s15_CVarArgAlignedP", "UInt64"]
+- !private ["s15_CVarArgAlignedP", "UnsafeBufferPointer"]
+- !private ["s15_CVarArgAlignedP", "UnsafeMutableBufferPointer"]
+- !private ["s15_CVarArgAlignedP", "bigEndian"]
+- !private ["s15_CVarArgAlignedP", "byteSwapped"]
+- ["s15_CVarArgAlignedP", "data"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- ["s15_CVarArgAlignedP", "tag"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Data"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Timer"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "UInt64"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "UnsafeBufferPointer"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "UnsafeMutableBufferPointer"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bigEndian"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "byteSwapped"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "data"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "tag"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "copyBytes"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "copyBytes"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["s17_MutableIndexableP", "copyBytes"]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "Data"]
+- !private ["s21_ObjectiveCBridgeableP", "Timer"]
+- !private ["s21_ObjectiveCBridgeableP", "UInt64"]
+- !private ["s21_ObjectiveCBridgeableP", "UnsafeBufferPointer"]
+- !private ["s21_ObjectiveCBridgeableP", "UnsafeMutableBufferPointer"]
+- !private ["s21_ObjectiveCBridgeableP", "bigEndian"]
+- !private ["s21_ObjectiveCBridgeableP", "byteSwapped"]
+- !private ["s21_ObjectiveCBridgeableP", "copyBytes"]
+- ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "tag"]
+- !private ["s22_RandomAccessIndexableP", "copyBytes"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "copyBytes"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s11_StrideableP", "Data"]
+- !private ["s11_StrideableP", "Timer"]
+- !private ["s11_StrideableP", "UInt64"]
+- !private ["s11_StrideableP", "UnsafeBufferPointer"]
+- !private ["s11_StrideableP", "UnsafeMutableBufferPointer"]
+- !private ["s11_StrideableP", "bigEndian"]
+- !private ["s11_StrideableP", "byteSwapped"]
+- ["s11_StrideableP", "data"]
+- !private ["s11_StrideableP", "init"]
+- ["s11_StrideableP", "tag"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- "s13BinaryIntegerP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "s7NumericP"
+- "9AnimaChat7OSCTypeP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9AnimaChat5TimerC"
+- "s6UInt64V"
+- !private "SR"
+- !private "Sr"
+- "s15UnsignedIntegerP"
+- !private "s23_BidirectionalIndexableP"
+- "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
+- "s11_StrideableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GameplayKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "e2377585ebf7e1f3b383777ef425e9e4"
