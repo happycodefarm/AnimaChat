@@ -39,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		F08C1AC91F6A680E00360D11 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		F0B0E29C1F80CE680096FB1B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F0B4A6751F66A0CF00D39B99 /* AnimaChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnimaChat.entitlements; sourceTree = "<group>"; };
 		F0EC87331F5EAF79009E4D3A /* AnimaChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimaChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0EC87361F5EAF79009E4D3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 		F0EC872A1F5EAF79009E4D3A = {
 			isa = PBXGroup;
 			children = (
+				F0B0E29C1F80CE680096FB1B /* README.md */,
 				F0EC87961F5EB2C9009E4D3A /* SwiftOSC */,
 				F0EC87351F5EAF79009E4D3A /* AnimaChat */,
 				F0EC87341F5EAF79009E4D3A /* Products */,
